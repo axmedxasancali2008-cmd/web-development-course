@@ -1,0 +1,17 @@
+
+p {
+    font-size: 18px;
+    color: rgb(68, 68, 68);
+}
+
+
+.favs {
+    color: rgb(0, 128, 128);
+    line-height: 1.5;
+}
+
+
+#character-name {
+    color: rgb(26, 77, 143);
+    font-size: 40px;
+}
