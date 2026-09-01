@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson three</title>
+</head>
+<body>
+    <main>
+        <h2>List Of Student Information</h2>
+        <table border="1px">
+            <tr>
+                <th>NO</th>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>CIS250002</td>
+                <td>Mohamed</td>
+                <td>Mohamed@gmail.com</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>CIS250003</td>
+                <td>Ahmed</td>
+                <td>Ahmed@gmail.como</td>
+            </tr>
+        </table>
+        <h2>Student Registration Form</h2>
+        <form action="submit">
+            <label for="name">Name:</label>
+            <input type="text" name="Name" id="std-name" ><br>
+            <label for="Email">Email:</label>
+            <input type="email" name="student_email"><br>
+            <label for="phone">Phone:</label>
+            <input type="number" placeholder="eg. 0614991336"><br>
+            <label for="DOB">Date Of Birth:</label>
+            <input type="date" required><br>
+            <label for="Password">Password:</label>
+            <input type="password"><br>
+            <label for="gender">
+              <input type="radio" id="gender" name="male" > Male
+            </label>
+            <label for="gender">
+                <input type="radio" id="gender" name="male" > Female
+            </label>
+            <input type="submit">
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,15 @@
+body {
+  font-size: 25px;
+}
+
+.a {
+  color: green;
+}
+
+.b {
+  color: yellow;
+}
+
+.c {
+  color: rgb(224, 68, 224);
+}

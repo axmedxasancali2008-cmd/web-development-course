@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration</title>
+</head>
+<body>
+
+    <header>
+        <h1>Tech Conference 2026</h1>
+        <p>Register for our upcoming technology event.</p>
+    </header>
+
+    <main>
+
+        <form action="#" method="post">
+
+            <section>
+                <h2>Personal Information</h2>
+
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required><br><br>
+
+                <label for="date">Preferred Event Date:</label>
+                <input type="date" id="date" name="date" required>
+            </section>
+            
+            <section>
+                <h2>Event Interests</h2>
+
+                <p>Select all sessions you are interested in:</p>
+
+                <label>
+                    <input type="checkbox" name="interest" value="web-development">
+                    Web Development
+                </label><br>
+
+                <label>
+                    <input type="checkbox" name="interest" value="artificial-intelligence">
+                    Artificial Intelligence
+                </label><br>
+
+                <label>
+                    <input type="checkbox" name="interest" value="cybersecurity">
+                    Cybersecurity
+                </label><br>
+
+                <label>
+                    <input type="checkbox" name="interest" value="networking">
+                    Networking
+                </label>
+            </section>
+
+            <section>
+                <h2>Event Survey</h2>
+
+                <p>How do you prefer to attend the event?</p>
+
+                <label>
+                    <input type="radio" name="attendance" value="in-person" required>
+                    In Person
+                </label>
+
+                <br>
+
+                <label>
+                    <input type="radio" name="attendance" value="online">
+                    Online
+                </label>
+            </section>
+
+            <br>
+
+            <section>
+                <label>
+                    <input type="checkbox" name="terms" required>
+                    I agree to the terms and conditions.
+                </label>
+            </section>
+
+            <br>
+
+            <button type="submit">Register Now</button>
+
+        </form>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Tech Conference</p>
+    </footer>
+
+</body>
+</html>

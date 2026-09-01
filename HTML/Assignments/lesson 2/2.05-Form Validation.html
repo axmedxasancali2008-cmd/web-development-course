@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Feedback Form</title>
+</head>
+<body>
+
+    <h1>Website Feedback Form</h1>
+
+    <p>Please share your experience with our website.</p>
+
+    <form action="#" method="post">
+
+        <div>
+            <label for="name">Name:</label>
+            <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                placeholder="Please enter your name."
+            >
+        </div>
+
+        <br>
+
+        <div>
+            <label for="email">Email:</label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="Please enter your email."
+            >
+        </div>
+
+        <br>
+
+        <fieldset>
+            <legend>How satisfied are you with our website?</legend>
+            <input type="radio" name="satisfaction" value="Excellent"> Excellent
+            <input type="radio" name="satisfaction" value="Good"> Good
+            <input type="radio" name="satisfaction" value="Average"> Average
+            <input type="radio" name="satisfaction" value="Poor"> Poor
+        </fieldset>
+
+        <br>
+
+        <div>
+            <label for="comments">Comments:</label>
+            <br>
+
+            <textarea
+                id="comments"
+                name="comments"
+                rows="6"
+                cols="40"
+                required
+                minlength="10"
+                placeholder="Please enter at least 10 characters."
+            ></textarea>
+
+            <br>
+        </div>
+
+        <br>
+
+        <button type="submit">Submit Feedback</button>
+
+    </form>
+
+</body>
+</html>

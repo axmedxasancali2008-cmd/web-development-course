@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnTech Laptop</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>LearnTech Store</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Student Laptop</h2>
+
+            <img
+                src="/HTML/lessons/laptop.jpg" width="200"
+                alt="LearnTech student laptop"
+                title="LearnTech Student Laptop"
+            >
+
+            <p>
+                A simple and affordable laptop designed for students,
+                programming, web development, and everyday computer use.
+            </p>
+
+            <p>
+                <strong>Price: $499</strong>
+            </p>
+
+            <a
+                href="#order"
+                id="buy-link"
+                class="product-link"
+            >
+                Buy Now
+            </a>
+        </section>
+
+        <section id="order">
+            <h2>Order Your Laptop</h2>
+
+            <form>
+                <label for="name">Full Name:</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your full name"
+                    required
+                >
+
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email address"
+                    required
+                >
+
+                <br><br>
+
+                <label for="quantity">Quantity:</label>
+                <input
+                    type="number"
+                    id="quantity"
+                    name="quantity"
+                    value="1"
+                    min="1"
+                    required
+                >
+
+                <br><br>
+
+                <label>
+                    <input
+                        type="checkbox"
+                        name="terms"
+                        checked
+                    >
+                    I agree to the terms and conditions.
+                </label>
+
+                <br><br>
+
+                <button type="submit">Place Order</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 LearnTech Store</p>
+    </footer>
+
+</body>
+</html>
