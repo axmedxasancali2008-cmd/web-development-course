@@ -1,0 +1,15 @@
+article {
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    line-height: 1.8;
+    text-align: center;
+}
+
+.important {
+    text-decoration: underline;
+}
