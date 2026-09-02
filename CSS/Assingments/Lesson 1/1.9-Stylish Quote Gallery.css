@@ -1,0 +1,41 @@
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.quote {
+    margin: 20px;
+    padding: 25px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+#quote1 {
+    background-color: rgb(227, 242, 253);
+    border: 5px solid rgb(110, 243, 33);
+    text-align: left;
+}
+
+#quote2 {
+    background-color: rgb(252, 228, 236);
+    border: 4px dashed rgb(233, 30, 99);
+    text-align: left;
+    padding: 30px;
+}
+
+#quote3 {
+    background-color: rgb(232, 245, 233);
+    border: 2px dotted rgb(76, 78, 175);
+    text-align: left;
+    padding: 20px;
+}
+
+#quote4 {
+    background-color: rgb(255, 243, 224);
+    border: 1px solid rgb(255, 0, 140);
+    text-align: left;
+    padding: 35px;
+    margin-top: 30px;
+}
