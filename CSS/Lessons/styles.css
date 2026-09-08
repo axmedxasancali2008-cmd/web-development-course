@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile-card {
+    width: 300px;
+    background-image: url('https://images.unsplash.com/photo-1533628635777-112b2239b1c7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: rgb(14, 13, 13);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.profile-card img {
+    width: 100px;
+    height: 100px;
+    border: 1px dashed tomato;
+    border-radius: 50%;
+}
+
+
