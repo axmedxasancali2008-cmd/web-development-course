@@ -8,7 +8,8 @@ body {
     height: 50vh;
     margin: 5vh auto;
     padding: 20px;
-    text-align: center;
+    /* text-align: center; */
+    line-height: 1.6;
 }
 
 .interest-section h1 {
@@ -31,4 +32,8 @@ body {
 
 #foods {
     background-color: lightgreen;
+}
+
+.favs {
+    color: rgb(0, 15, 15);
 }
