@@ -1,0 +1,41 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  background-color: white;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.logo {
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.logo img {
+  width: 100px;
+  display: inline-block;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.navbar {
+  display: inline-block;
+  width: 69%;
+  text-align: right;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.navbar a {
+  display: inline-block;
+  margin-left: 30px;
+  vertical-align: bottom;
+  color: rgb(51, 51, 51);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}

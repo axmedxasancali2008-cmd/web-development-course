@@ -1,0 +1,32 @@
+.hero {
+  height: 90vh;
+  width: 100vw;
+  background-image:url('../Uploads/hero');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.hero-content {
+  position: relative;
+  width: 560px;
+  height: 400px;
+  color: rgb(255, 255, 255);
+  padding-left: 100px;
+  padding-top: 200px;
+}
+
+.hero-content h1 {
+  font-size: 46px;
+  line-height: 1;
+  margin-bottom: 25px;
+  font-weight: bolder;
+  
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
