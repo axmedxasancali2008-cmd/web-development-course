@@ -1,24 +1,294 @@
-body {
-  font-family: Arial, Helvetica, sans-serif;
+/* =========================
+   GENERAL STYLE
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.profile-card {
-    width: 300px;
-    background-image: url('https://images.unsplash.com/photo-1533628635777-112b2239b1c7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    color: rgb(14, 13, 13);
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #222;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+header {
+    background-color: #1f1f1f;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 22px 50px;
+}
+
+.logo h1 {
+    font-size: 28px;
+}
+
+nav {
+    display: flex;
+    gap: 35px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #d4a373;
+}
+
+
+/* =========================
+   PAGE LAYOUT
+========================= */
+
+.page-container {
+    display: flex;
+    min-height: calc(100vh - 82px);
+}
+
+
+/* =========================
+   SIDEBAR
+========================= */
+
+.sidebar {
+    width: 240px;
+    background-color: #252525;
+    color: white;
+    padding: 35px 25px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.sidebar h2 {
+    margin-bottom: 10px;
+    font-size: 23px;
+}
+
+.sidebar a {
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    color: #d4a373;
+    padding-left: 5px;
+}
+
+
+/* =========================
+   MAIN CONTENT
+========================= */
+
+main {
+    flex: 1;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+/* =========================
+   PAGE TITLE
+========================= */
+
+.page-title {
+    margin-bottom: 5px;
+}
+
+.page-title h2 {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.page-title p {
+    color: #666;
+    line-height: 1.6;
+}
+
+
+/* =========================
+   PRODUCT / BLOG POST
+========================= */
+
+.post {
+    background-color: white;
+    border: 1px solid #dddddd;
+    border-radius: 12px;
     padding: 20px;
+
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+/* =========================
+   POST IMAGE
+========================= */
+
+.post-image {
+    width: 260px;
+    height: 230px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 10px;
 }
 
-.profile-card img {
-    width: 100px;
-    height: 100px;
-    border: 1px dashed tomato;
-    border-radius: 50%;
+
+/* =========================
+   POST CONTENT
+========================= */
+
+.post-content {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.post-content h2 {
+    font-size: 26px;
 }
 
 
+/* =========================
+   DATE AND AUTHOR
+========================= */
+
+.post-info {
+    display: flex;
+    gap: 25px;
+
+    font-size: 14px;
+    color: #777;
+}
+
+
+/* =========================
+   DESCRIPTION
+========================= */
+
+.post-content p {
+    color: #555;
+    line-height: 1.7;
+    max-width: 700px;
+}
+
+
+/* =========================
+   BUTTONS
+========================= */
+
+.buttons {
+    display: flex;
+    gap: 12px;
+    margin-top: 5px;
+}
+
+.buttons a {
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 6px;
+}
+
+.learn-btn {
+    background-color: #e5e5e5;
+    color: #222;
+}
+
+.shop-btn {
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.learn-btn:hover {
+    background-color: #d4d4d4;
+}
+
+.shop-btn:hover {
+    background-color: #d4a373;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    background-color: #1f1f1f;
+    color: white;
+
+    text-align: center;
+    padding: 22px;
+
+    margin-top: auto;
+    border-radius: 5px;
+}
+
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+@media (max-width: 850px) {
+
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .page-container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .post {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .post-image {
+        width: 100%;
+        height: 300px;
+    }
+
+    .post-info {
+        flex-direction: column;
+        gap: 7px;
+    }
+}

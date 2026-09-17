@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+.basketball-card {
+    width: 600px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.basketball-image img {
+    width: 100%;
+    height: 220px;
+}
+
+.basketball-content {
+    flex: 1;
+    text-align: justify;
+}
+
+.basketball-content h2 {
+    font-size: 28px;
+    color: rgb(34, 34, 34);
+}
+
+.basketball-content p {
+    color: rgb(85, 85, 85);
+    line-height: 1.6;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.cart-btn {
+    border-radius: 50px;
+    color: rgb(33, 33, 33);
+    background-color: rgb(255, 216, 20);
+}
+
+.learn-btn {
+    background-color: rgb(221, 221, 221);
+    color: rgb(34, 34, 34);
+}
