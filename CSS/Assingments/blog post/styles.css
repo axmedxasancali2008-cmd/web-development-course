@@ -41,7 +41,6 @@ nav a {
 
 main {
     flex: 1;
-    padding: 30px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -123,5 +122,4 @@ footer {
     color: white;
     text-align: center;
     padding: 22px;
-    border-radius: 5px;
 }
