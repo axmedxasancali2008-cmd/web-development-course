@@ -21,3 +21,13 @@
 // }
 
 // Welcome(name);
+
+let StudentData={
+    firstname: "Abdirahman",
+    lastname: "Mohamed",
+    Email: "abdirahman.mohamed@example.com"
+}
+
+console.log(StudentData.firstname)
+console.log(StudentData.lastname)
+console.log(StudentData.Email)
